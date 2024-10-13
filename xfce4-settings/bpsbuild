@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 name="xfce4-settings"
 version="4.19.2"
-description="Xfce's Configuration System"
+description="Xfces Configuration System"
 source="https://archive.xfce.org/src/xfce/xfce4-settings/${version%.*}/xfce4-settings-${version}.tar.bz2"
 depends="exo,garcon,hicolor-icon-theme,libnotify,gnome-themes-standard,libxklavier"
 builddepend="intltool"

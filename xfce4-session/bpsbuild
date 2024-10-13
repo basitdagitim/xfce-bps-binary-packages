@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 name="xfce4-session"
 version="4.19.2"
-description="Xfce's session manager"
+description="Xfces session manager"
 source="https://archive.xfce.org/src/xfce/xfce4-session/${version%.*}/xfce4-session-${version}.tar.bz2"
 depends="libxfce4ui,libwnck3,xfconf,xorg-iceauth"
 builddepend="intltool"

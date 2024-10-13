@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 name="xfdesktop"
 version="4.19.3"
-description="Xfce's desktop manager"
+description="Xfces desktop manager"
 source="https://archive.xfce.org/src/xfce/xfdesktop/${version%.*}/xfdesktop-${version}.tar.bz2"
 depends="exo,garcon,libwnck3,libxfce4ui,thunar"
 builddepend="intltool,xfce4-dev-tools"
